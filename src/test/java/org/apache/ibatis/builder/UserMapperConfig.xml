@@ -73,7 +73,9 @@
   </environments>
 
   <mappers>
-    <mapper resource="org/apache/ibatis/builder/UserMapper.xml"/>
+    <mapper resource="org/apache/ibatis/builder/deepResultMap/UserMapper.xml"/>
+    <mapper resource="org/apache/ibatis/builder/deepResultMap/PersonMapper.xml"/>
+    <mapper resource="org/apache/ibatis/builder/deepResultMap/ManMapper.xml"/>
   </mappers>
 
 </configuration>
